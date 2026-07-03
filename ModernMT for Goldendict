@@ -1,5 +1,0 @@
-For Goldendict programms tab
-
-cmd.exe /U /c Echo | set /p="http://192.168.0.104:8045/translate?q=" > F:\!Ahk\MMT\text.txt & F:\!Ahk\MMT\URLEncode.exe -e %GDWORD% >> F:\!Ahk\MMT\text.txt & F:\!Ahk\MMT\wget.exe -qO- --remote-encoding=utf-8 --local-encoding=utf-8 --restrict-file-names=nocontrol -i F:\!Ahk\MMT\text.txt
-
-Change path accordingly
